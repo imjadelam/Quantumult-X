@@ -1,18 +1,20 @@
 /********************************
 Membership unlock for VSCO & 1Blocker
 Please note that you may need to reinstall app for script to work.
+by@NobyDa
 
 QuantumultX rewrite link:
-https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/vsco.js
+https://raw.githubusercontent.com/imjadelam/Quantumult-X/main/Script/vsco/vsco.js
 
 Please note that the above rewrite link requires open KOP-XIAO's resource parser
+请注意，上述重写链接需要打开KOP-XIAO的资源解析器
 
 *********************************
 Surge4, Loon and Shadowrocket configuration:
 
 [Script]
-http-request ^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/ script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/vsco.js
-http-response ^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/ requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/vsco.js
+http-request ^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/ script-path=https://raw.githubusercontent.com/imjadelam/Quantumult-X/main/Script/vsco/vsco.js
+http-response ^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/ requires-body=1,script-path=https://raw.githubusercontent.com/imjadelam/Quantumult-X/main/Script/vsco/vsco.js
 
 [MITM]
 hostname = api.revenuecat.com
